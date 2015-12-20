@@ -24,4 +24,4 @@ while True:
         arduino.write(cheerlights.encode('ascii', 'ignore'))
         print(cheerlights)
         color = cheerlights
-        time.sleep(1)
+        time.sleep(16)
